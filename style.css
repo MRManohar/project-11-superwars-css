@@ -1,23 +1,31 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;400;700;800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;400;700;800&display=swap");
 
 * {
   padding: 0;
   margin: 0;
 }
 
-ul {
-  list-style: none;
+
+.two {
+  display: flex;
+  flex-direction: row;
+}
+
+.main {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
 }
 
-div {
-  border: 1px solid black;
+.frame {
+  border: 1px solid grey;
+  border-radius: 5px;
   width: 130px;
   height: 250px;
   text-align: center;
+
 }
+
 
 .num {
   font-weight: 800;
